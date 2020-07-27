@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}  
+
+/* Header
+----------------------------------- */
+
+header {
+    padding-top: 107px;
+}
+
+.title-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.title-line {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    border: none;
+    background: #FF8B38;   
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+/* Main
+----------------------------------- */
+
+main {
+    padding: 80px 0 107px;
+    font-size: 0;
+}
+
+.box {
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+}
+
+.text {
+    margin:29px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.icon-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.icon-lamp {
+    background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon-keyboard {
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon-lightning {
+    background: url(../img/lightning.png) no-repeat center center;
+}
